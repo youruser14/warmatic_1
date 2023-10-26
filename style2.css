@@ -1,0 +1,171 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 1080px;
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+    
+}
+
+.logo {
+    padding: 4vh 4vw;
+}
+
+.menu__left-column {
+    max-width: 354px;
+    width: 100%;
+    
+    background-color: #F3F3F3;
+    
+}
+
+.menu {
+    padding-top: 22vh;
+}
+
+.menu__list {
+    padding-left: 3vw;
+}
+
+.menu__list-btn {
+    padding: 25px;
+    text-transform: uppercase;
+    color: #1F3450;
+    font-family: Roboto;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 700;
+    width: 285px;
+    text-align: left;
+}
+
+.menu__list-btn:hover {
+    border-radius: 10px;
+    background-color: #325686;
+    color: white;
+    transition: color 0.3s;    
+}
+
+.footer-btn {
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #325686;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+
+
+
+/* CENTRAL BLOCK */
+.classic__text {
+    color: #8A8A8A;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.central__block {
+margin-left: 2vw;
+}   
+
+.title {
+    color: #1F3450;
+    font-family: Roboto;
+    font-size: 2em; 
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 4vh;
+    
+}
+
+.header__title {
+    border-bottom: #8A8A8A 1px solid; 
+    width: 70vw;
+}
+
+.order__column {
+    display: flex;
+    padding-top: 2.5vh;
+    
+}
+
+.order__column-left {
+    display: flex;
+    flex-direction: column;
+    max-height: 880px;
+    height: 100%;
+    border-right: #8A8A8A 1px solid;
+    padding-right: 1vw;
+    
+}
+
+.order__name {
+   
+    margin-bottom: 0.5vh;
+    
+}
+
+.meaning {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1.5px solid #8A8A8A;
+    padding-left: 1vw;
+    margin-bottom: 2vh;
+}
+
+
+/* Правая колонка центрального блока */
+
+.order__column-right {
+    margin-left: 2vw;
+}
+
+.source__title {
+    margin-right: 1vw;
+}
+
+.goods__selection {
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.source__item {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    
+}
+
+.source__selection {
+    display: flex;
+    gap: 2vw;    
+    
+}
+
+.next {
+    margin-top: 2vh;
+}
+
+.next p {
+    margin-bottom: 0.5vh;
+}
+.source__item-radio {
+    border-radius: 10px;
+    border: 2px solid #8A8A8A;
+    width: 30px;
+    height: 30px;
+    
+}
